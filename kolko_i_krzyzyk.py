@@ -1,8 +1,11 @@
 def wyswietlPlansze(lista2D):
     for i in lista2D:
         for e in i:
-            print(i,end="")
+            print(e,end=" ")
         print()
+
+graKrzyzyk=False
+start=input("X czy O: ")
 
 plansza=[["*","*","*",],["*","*","*",],["*","*","*",]]
 
