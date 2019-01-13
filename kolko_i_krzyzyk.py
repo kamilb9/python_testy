@@ -14,6 +14,15 @@ start=input("X czy O: ")
 if start == "X":
     graKrzyzyk=True
 
+def wygrana(lista2D):
+    for x in range(0,3):
+        if mapa2D[x][0]==mapa2D[x][1] and mapa2D[x][1]==mapa2D[x][2]:
+            retun True
+    for y in range(0,3):
+        if mapa2D[0][y]==mapa2D[0][y] and mapa2D[0][y]==mapa2D[0][y]:
+            retun True
+    if mapa2D[0][0]==mapa2D[1][1] and mapa2D[1][1]==mapa2D[2][2]:
+        return True
 
 plansza=[["*","*","*",],["*","*","*",],["*","*","*",]]
 
