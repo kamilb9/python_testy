@@ -31,6 +31,10 @@ def remis(lista2D):
     if not wygrana(lista2D):
         wolnePole= False
         for x in lista2D:
+            for y in x:
+                if y=="*":
+                    return False
+
 
 
 
