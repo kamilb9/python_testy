@@ -20,7 +20,7 @@ def wygrana(lista2D):
             return True
     for y in range(0,3):
         if mapa2D[0][y]==mapa2D[0][y] and mapa2D[0][y]==mapa2D[0][y]:
-            retun True
+            return True
     if mapa2D[0][0]==mapa2D[1][1] and mapa2D[1][1]==mapa2D[2][2]:
         return True
     if mapa2D[0][2]==mapa2D[1][1] and mapa2D[1][1]==mapa2D[2][0]:
