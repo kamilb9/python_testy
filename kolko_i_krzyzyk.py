@@ -23,6 +23,9 @@ def wygrana(lista2D):
             retun True
     if mapa2D[0][0]==mapa2D[1][1] and mapa2D[1][1]==mapa2D[2][2]:
         return True
+    if mapa2D[0][2]==mapa2D[1][1] and mapa2D[1][1]==mapa2D[2][0]:
+        return True
+    return False
 
 plansza=[["*","*","*",],["*","*","*",],["*","*","*",]]
 
